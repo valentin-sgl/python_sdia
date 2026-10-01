@@ -1,12 +1,11 @@
-import os
-from setuptools import setup
-
+from setuptools import setup, Extension
 from Cython.Build import cythonize
 
-os.environ["CC"] = "gcc"
+extensions = [
+    Extension("helloworld", ["helloworld.pyx"]),
+    Extension("primes", ["primes.pyx"])
+]
 
 setup(
-    ext_modules=cythonize(
-        ["helloworld.pyx", "primes.pyx"], annotate=True, language_level="3"
-    ),
+    ext_modules=cythonize(extensions, annotate=True, language_level="3")
 )
