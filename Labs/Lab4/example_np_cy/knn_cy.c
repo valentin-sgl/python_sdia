@@ -3956,7 +3956,7 @@ namespace {
     PyObject *__pyx_slice[1];
     PyObject *__pyx_tuple[3];
     PyObject *__pyx_codeobj_tab[2];
-    PyObject *__pyx_string_tab[133];
+    PyObject *__pyx_string_tab[132];
     PyObject *__pyx_number_tab[3];
 /* #### Code section: module_state_contents ### */
 /* PyFrozenDict.module_state_decls */
@@ -4083,62 +4083,61 @@ static __pyx_mstatetype * const __pyx_mstate_global = &__pyx_mstate_global_stati
 #define __pyx_n_u_count __pyx_string_tab[74]
 #define __pyx_n_u_d __pyx_string_tab[75]
 #define __pyx_n_u_diff __pyx_string_tab[76]
-#define __pyx_n_u_dist __pyx_string_tab[77]
-#define __pyx_n_u_dist_sq __pyx_string_tab[78]
-#define __pyx_n_u_dist_view __pyx_string_tab[79]
-#define __pyx_n_u_distances_np __pyx_string_tab[80]
-#define __pyx_n_u_dtype __pyx_string_tab[81]
-#define __pyx_n_u_dtype_is_object __pyx_string_tab[82]
-#define __pyx_n_u_encode __pyx_string_tab[83]
-#define __pyx_n_u_enumerate __pyx_string_tab[84]
-#define __pyx_n_u_error __pyx_string_tab[85]
-#define __pyx_n_u_flags __pyx_string_tab[86]
-#define __pyx_n_u_float64 __pyx_string_tab[87]
-#define __pyx_n_u_format __pyx_string_tab[88]
-#define __pyx_n_u_fortran __pyx_string_tab[89]
-#define __pyx_n_u_i __pyx_string_tab[90]
-#define __pyx_n_u_id __pyx_string_tab[91]
-#define __pyx_n_u_index __pyx_string_tab[92]
-#define __pyx_n_u_items __pyx_string_tab[93]
-#define __pyx_n_u_itemsize __pyx_string_tab[94]
-#define __pyx_n_u_j __pyx_string_tab[95]
-#define __pyx_n_u_k __pyx_string_tab[96]
-#define __pyx_n_u_knn __pyx_string_tab[97]
-#define __pyx_n_u_knn_cy __pyx_string_tab[98]
-#define __pyx_n_u_knn_cython_avec_secu __pyx_string_tab[99]
-#define __pyx_n_u_knn_cython_sans_secu __pyx_string_tab[100]
-#define __pyx_n_u_memview __pyx_string_tab[101]
-#define __pyx_n_u_mode __pyx_string_tab[102]
-#define __pyx_n_u_n_features __pyx_string_tab[103]
-#define __pyx_n_u_n_test __pyx_string_tab[104]
-#define __pyx_n_u_n_train __pyx_string_tab[105]
-#define __pyx_n_u_name __pyx_string_tab[106]
-#define __pyx_n_u_ndim __pyx_string_tab[107]
-#define __pyx_n_u_np __pyx_string_tab[108]
-#define __pyx_n_u_numpy __pyx_string_tab[109]
-#define __pyx_n_u_obj __pyx_string_tab[110]
-#define __pyx_n_u_pack __pyx_string_tab[111]
-#define __pyx_n_u_pop __pyx_string_tab[112]
-#define __pyx_n_u_predict_classe_np __pyx_string_tab[113]
-#define __pyx_n_u_predict_view __pyx_string_tab[114]
-#define __pyx_n_u_register __pyx_string_tab[115]
-#define __pyx_n_u_setdefault __pyx_string_tab[116]
-#define __pyx_n_u_shape __pyx_string_tab[117]
-#define __pyx_n_u_size __pyx_string_tab[118]
-#define __pyx_n_u_start __pyx_string_tab[119]
-#define __pyx_n_u_step __pyx_string_tab[120]
-#define __pyx_n_u_stop __pyx_string_tab[121]
-#define __pyx_n_u_struct __pyx_string_tab[122]
-#define __pyx_n_u_unpack __pyx_string_tab[123]
-#define __pyx_n_u_update __pyx_string_tab[124]
-#define __pyx_n_u_values __pyx_string_tab[125]
-#define __pyx_n_u_x __pyx_string_tab[126]
-#define __pyx_n_u_x_test __pyx_string_tab[127]
-#define __pyx_n_u_x_train __pyx_string_tab[128]
-#define __pyx_n_u_zeros __pyx_string_tab[129]
-#define __pyx_n_b_O __pyx_string_tab[130]
-#define __pyx_kp_b_iso88591_wfAQ_q_fF_1_q_Q_2V1IV2Q_q_Rxq_U __pyx_string_tab[131]
-#define __pyx_kp_b_iso88591_wfAQ_q_fF_1_q_Q_2V1IV2Q_q_Rxq_U_2 __pyx_string_tab[132]
+#define __pyx_n_u_dist_sq __pyx_string_tab[77]
+#define __pyx_n_u_dist_view __pyx_string_tab[78]
+#define __pyx_n_u_distances_np __pyx_string_tab[79]
+#define __pyx_n_u_dtype __pyx_string_tab[80]
+#define __pyx_n_u_dtype_is_object __pyx_string_tab[81]
+#define __pyx_n_u_encode __pyx_string_tab[82]
+#define __pyx_n_u_enumerate __pyx_string_tab[83]
+#define __pyx_n_u_error __pyx_string_tab[84]
+#define __pyx_n_u_flags __pyx_string_tab[85]
+#define __pyx_n_u_float64 __pyx_string_tab[86]
+#define __pyx_n_u_format __pyx_string_tab[87]
+#define __pyx_n_u_fortran __pyx_string_tab[88]
+#define __pyx_n_u_i __pyx_string_tab[89]
+#define __pyx_n_u_id __pyx_string_tab[90]
+#define __pyx_n_u_index __pyx_string_tab[91]
+#define __pyx_n_u_items __pyx_string_tab[92]
+#define __pyx_n_u_itemsize __pyx_string_tab[93]
+#define __pyx_n_u_j __pyx_string_tab[94]
+#define __pyx_n_u_k __pyx_string_tab[95]
+#define __pyx_n_u_knn __pyx_string_tab[96]
+#define __pyx_n_u_knn_cy __pyx_string_tab[97]
+#define __pyx_n_u_knn_cython_avec_secu __pyx_string_tab[98]
+#define __pyx_n_u_knn_cython_sans_secu __pyx_string_tab[99]
+#define __pyx_n_u_memview __pyx_string_tab[100]
+#define __pyx_n_u_mode __pyx_string_tab[101]
+#define __pyx_n_u_n_features __pyx_string_tab[102]
+#define __pyx_n_u_n_test __pyx_string_tab[103]
+#define __pyx_n_u_n_train __pyx_string_tab[104]
+#define __pyx_n_u_name __pyx_string_tab[105]
+#define __pyx_n_u_ndim __pyx_string_tab[106]
+#define __pyx_n_u_np __pyx_string_tab[107]
+#define __pyx_n_u_numpy __pyx_string_tab[108]
+#define __pyx_n_u_obj __pyx_string_tab[109]
+#define __pyx_n_u_pack __pyx_string_tab[110]
+#define __pyx_n_u_pop __pyx_string_tab[111]
+#define __pyx_n_u_predict_classe_np __pyx_string_tab[112]
+#define __pyx_n_u_predict_view __pyx_string_tab[113]
+#define __pyx_n_u_register __pyx_string_tab[114]
+#define __pyx_n_u_setdefault __pyx_string_tab[115]
+#define __pyx_n_u_shape __pyx_string_tab[116]
+#define __pyx_n_u_size __pyx_string_tab[117]
+#define __pyx_n_u_start __pyx_string_tab[118]
+#define __pyx_n_u_step __pyx_string_tab[119]
+#define __pyx_n_u_stop __pyx_string_tab[120]
+#define __pyx_n_u_struct __pyx_string_tab[121]
+#define __pyx_n_u_unpack __pyx_string_tab[122]
+#define __pyx_n_u_update __pyx_string_tab[123]
+#define __pyx_n_u_values __pyx_string_tab[124]
+#define __pyx_n_u_x __pyx_string_tab[125]
+#define __pyx_n_u_x_test __pyx_string_tab[126]
+#define __pyx_n_u_x_train __pyx_string_tab[127]
+#define __pyx_n_u_zeros __pyx_string_tab[128]
+#define __pyx_n_b_O __pyx_string_tab[129]
+#define __pyx_kp_b_iso88591_wfAQ_q_fF_1_q_Q_2V1IV2Q_q_Rxq_U __pyx_string_tab[130]
+#define __pyx_kp_b_iso88591_wfAQ_q_fF_1_q_Q_2V1IV2Q_q_Rxq_U_2 __pyx_string_tab[131]
 #define __pyx_int_0 __pyx_number_tab[0]
 #define __pyx_int_neg_1 __pyx_number_tab[1]
 #define __pyx_int_136983863 __pyx_number_tab[2]
@@ -4186,7 +4185,7 @@ static CYTHON_SMALL_CODE int __pyx_m_clear(PyObject *m) {
   for (int i=0; i<1; ++i) { Py_CLEAR(clear_module_state->__pyx_slice[i]); }
   for (int i=0; i<3; ++i) { Py_CLEAR(clear_module_state->__pyx_tuple[i]); }
   for (int i=0; i<2; ++i) { Py_CLEAR(clear_module_state->__pyx_codeobj_tab[i]); }
-  for (int i=0; i<133; ++i) { Py_CLEAR(clear_module_state->__pyx_string_tab[i]); }
+  for (int i=0; i<132; ++i) { Py_CLEAR(clear_module_state->__pyx_string_tab[i]); }
   for (int i=0; i<3; ++i) { Py_CLEAR(clear_module_state->__pyx_number_tab[i]); }
 /* #### Code section: module_state_clear_contents ### */
 /* CommonTypesMetaclass.module_state_clear */
@@ -4240,7 +4239,7 @@ static CYTHON_SMALL_CODE int __pyx_m_traverse(PyObject *m, visitproc visit, void
   for (int i=0; i<1; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_slice[i]); }
   for (int i=0; i<3; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_tuple[i]); }
   for (int i=0; i<2; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_codeobj_tab[i]); }
-  for (int i=0; i<133; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_string_tab[i]); }
+  for (int i=0; i<132; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_string_tab[i]); }
   for (int i=0; i<3; ++i) { __Pyx_VISIT_CONST(traverse_module_state->__pyx_number_tab[i]); }
 /* #### Code section: module_state_traverse_contents ### */
 /* CommonTypesMetaclass.module_state_traverse */
@@ -21044,8 +21043,8 @@ static PyObject *__pyx_pf_6knn_cy_knn_cython_avec_secu(CYTHON_UNUSED PyObject *_
   int __pyx_v_j;
   int __pyx_v_d;
   double __pyx_v_diff;
+  double __pyx_v_dist_sq;
   PyObject *__pyx_v_class_train_np = NULL;
-  double __pyx_v_dist;
   PyObject *__pyx_v_knn = NULL;
   PyObject *__pyx_v_classes = NULL;
   PyObject *__pyx_r = NULL;
@@ -21299,7 +21298,7 @@ static PyObject *__pyx_pf_6knn_cy_knn_cython_avec_secu(CYTHON_UNUSED PyObject *_
  *     for i in range(n_test):
  *         # On calcule des distances euclidiennes avec des boucles C pures
  *         for j in range(n_train):             # <<<<<<<<<<<<<<
- *             dist = 0
+ *             dist_sq = 0
  *             for d in range(n_features):
 */
 
@@ -21312,18 +21311,18 @@ static PyObject *__pyx_pf_6knn_cy_knn_cython_avec_secu(CYTHON_UNUSED PyObject *_
       /* "knn_cy.pyx":38
  *         # On calcule des distances euclidiennes avec des boucles C pures
  *         for j in range(n_train):
- *             dist = 0             # <<<<<<<<<<<<<<
+ *             dist_sq = 0             # <<<<<<<<<<<<<<
  *             for d in range(n_features):
  *                 diff = x_train[j, d] - x_test[i, d]
 */
-      __pyx_v_dist = 0.0;
+      __pyx_v_dist_sq = 0.0;
 
       /* "knn_cy.pyx":39
  *         for j in range(n_train):
- *             dist = 0
+ *             dist_sq = 0
  *             for d in range(n_features):             # <<<<<<<<<<<<<<
  *                 diff = x_train[j, d] - x_test[i, d]
- *                 dist += diff * diff
+ *                 dist_sq += diff * diff
 */
 
       __pyx_t_16 = __pyx_v_n_features;
@@ -21333,10 +21332,10 @@ static PyObject *__pyx_pf_6knn_cy_knn_cython_avec_secu(CYTHON_UNUSED PyObject *_
         __pyx_v_d = __pyx_t_18;
 
         /* "knn_cy.pyx":40
- *             dist = 0
+ *             dist_sq = 0
  *             for d in range(n_features):
  *                 diff = x_train[j, d] - x_test[i, d]             # <<<<<<<<<<<<<<
- *                 dist += diff * diff
+ *                 dist_sq += diff * diff
  * 
 */
         __pyx_t_19 = __pyx_v_j;
@@ -21374,18 +21373,18 @@ static PyObject *__pyx_pf_6knn_cy_knn_cython_avec_secu(CYTHON_UNUSED PyObject *_
         /* "knn_cy.pyx":41
  *             for d in range(n_features):
  *                 diff = x_train[j, d] - x_test[i, d]
- *                 dist += diff * diff             # <<<<<<<<<<<<<<
+ *                 dist_sq += diff * diff             # <<<<<<<<<<<<<<
  * 
  *             # On stocke dans la memory view pour viter le surcot Python
 */
-        __pyx_v_dist = (__pyx_v_dist + (__pyx_v_diff * __pyx_v_diff));
+        __pyx_v_dist_sq = (__pyx_v_dist_sq + (__pyx_v_diff * __pyx_v_diff));
       }
 
 
       /* "knn_cy.pyx":44
  * 
  *             # On stocke dans la memory view pour viter le surcot Python
- *             dist_view[j] = sqrt(dist)             # <<<<<<<<<<<<<<
+ *             dist_view[j] = sqrt(dist_sq)             # <<<<<<<<<<<<<<
  * 
  *         knn = bn.argpartition(distances_np, k)[:k]
 */
@@ -21399,12 +21398,12 @@ static PyObject *__pyx_pf_6knn_cy_knn_cython_avec_secu(CYTHON_UNUSED PyObject *_
         __Pyx_RaiseBufferIndexError(__pyx_t_16);
         __PYX_ERR(0, 44, __pyx_L1_error)
       }
-      *((double *) ( /* dim=0 */ (__pyx_v_dist_view.data + __pyx_t_23 * __pyx_v_dist_view.strides[0]) )) = sqrt(__pyx_v_dist);
+      *((double *) ( /* dim=0 */ (__pyx_v_dist_view.data + __pyx_t_23 * __pyx_v_dist_view.strides[0]) )) = sqrt(__pyx_v_dist_sq);
     }
 
 
     /* "knn_cy.pyx":46
- *             dist_view[j] = sqrt(dist)
+ *             dist_view[j] = sqrt(dist_sq)
  * 
  *         knn = bn.argpartition(distances_np, k)[:k]             # <<<<<<<<<<<<<<
  *         classes = class_train_np[knn]
@@ -21597,8 +21596,8 @@ static PyObject *__pyx_pf_6knn_cy_knn_cython_avec_secu(CYTHON_UNUSED PyObject *_
 
 
 
-  __Pyx_XDECREF(__pyx_v_class_train_np);
 
+  __Pyx_XDECREF(__pyx_v_class_train_np);
   __Pyx_XDECREF(__pyx_v_knn);
   __Pyx_XDECREF(__pyx_v_classes);
   __Pyx_XGIVEREF(__pyx_r);
@@ -21743,8 +21742,8 @@ static PyObject *__pyx_pf_6knn_cy_2knn_cython_sans_secu(CYTHON_UNUSED PyObject *
   int __pyx_v_j;
   int __pyx_v_d;
   double __pyx_v_diff;
+  double __pyx_v_dist_sq;
   PyObject *__pyx_v_class_train_np = NULL;
-  double __pyx_v_dist;
   PyObject *__pyx_v_knn = NULL;
   PyObject *__pyx_v_classes = NULL;
   PyObject *__pyx_r = NULL;
@@ -21984,7 +21983,7 @@ static PyObject *__pyx_pf_6knn_cy_2knn_cython_sans_secu(CYTHON_UNUSED PyObject *
  * 
  *     for i in range(n_test):             # <<<<<<<<<<<<<<
  *         for j in range(n_train):
- *             dist = 0
+ *             dist_sq = 0
 */
 
   __pyx_t_10 = __pyx_v_n_test;
@@ -21997,7 +21996,7 @@ static PyObject *__pyx_pf_6knn_cy_2knn_cython_sans_secu(CYTHON_UNUSED PyObject *
  * 
  *     for i in range(n_test):
  *         for j in range(n_train):             # <<<<<<<<<<<<<<
- *             dist = 0
+ *             dist_sq = 0
  *             for d in range(n_features):
 */
 
@@ -22010,18 +22009,18 @@ static PyObject *__pyx_pf_6knn_cy_2knn_cython_sans_secu(CYTHON_UNUSED PyObject *
       /* "knn_cy.pyx":79
  *     for i in range(n_test):
  *         for j in range(n_train):
- *             dist = 0             # <<<<<<<<<<<<<<
+ *             dist_sq = 0             # <<<<<<<<<<<<<<
  *             for d in range(n_features):
  *                 diff = x_train[j, d] - x_test[i, d]
 */
-      __pyx_v_dist = 0.0;
+      __pyx_v_dist_sq = 0.0;
 
       /* "knn_cy.pyx":80
  *         for j in range(n_train):
- *             dist = 0
+ *             dist_sq = 0
  *             for d in range(n_features):             # <<<<<<<<<<<<<<
  *                 diff = x_train[j, d] - x_test[i, d]
- *                 dist += diff * diff
+ *                 dist_sq += diff * diff
 */
 
       __pyx_t_16 = __pyx_v_n_features;
@@ -22031,11 +22030,11 @@ static PyObject *__pyx_pf_6knn_cy_2knn_cython_sans_secu(CYTHON_UNUSED PyObject *
         __pyx_v_d = __pyx_t_18;
 
         /* "knn_cy.pyx":81
- *             dist = 0
+ *             dist_sq = 0
  *             for d in range(n_features):
  *                 diff = x_train[j, d] - x_test[i, d]             # <<<<<<<<<<<<<<
- *                 dist += diff * diff
- *             dist_view[j] = sqrt(dist)
+ *                 dist_sq += diff * diff
+ *             dist_view[j] = sqrt(dist_sq)
 */
         __pyx_t_19 = __pyx_v_j;
         __pyx_t_20 = __pyx_v_d;
@@ -22046,28 +22045,28 @@ static PyObject *__pyx_pf_6knn_cy_2knn_cython_sans_secu(CYTHON_UNUSED PyObject *
         /* "knn_cy.pyx":82
  *             for d in range(n_features):
  *                 diff = x_train[j, d] - x_test[i, d]
- *                 dist += diff * diff             # <<<<<<<<<<<<<<
- *             dist_view[j] = sqrt(dist)
+ *                 dist_sq += diff * diff             # <<<<<<<<<<<<<<
+ *             dist_view[j] = sqrt(dist_sq)
  * 
 */
-        __pyx_v_dist = (__pyx_v_dist + (__pyx_v_diff * __pyx_v_diff));
+        __pyx_v_dist_sq = (__pyx_v_dist_sq + (__pyx_v_diff * __pyx_v_diff));
       }
 
 
       /* "knn_cy.pyx":83
  *                 diff = x_train[j, d] - x_test[i, d]
- *                 dist += diff * diff
- *             dist_view[j] = sqrt(dist)             # <<<<<<<<<<<<<<
+ *                 dist_sq += diff * diff
+ *             dist_view[j] = sqrt(dist_sq)             # <<<<<<<<<<<<<<
  * 
  *         knn = bn.argpartition(distances_np, k)[:k]
 */
       __pyx_t_22 = __pyx_v_j;
-      *((double *) ( /* dim=0 */ (__pyx_v_dist_view.data + __pyx_t_22 * __pyx_v_dist_view.strides[0]) )) = sqrt(__pyx_v_dist);
+      *((double *) ( /* dim=0 */ (__pyx_v_dist_view.data + __pyx_t_22 * __pyx_v_dist_view.strides[0]) )) = sqrt(__pyx_v_dist_sq);
     }
 
 
     /* "knn_cy.pyx":85
- *             dist_view[j] = sqrt(dist)
+ *             dist_view[j] = sqrt(dist_sq)
  * 
  *         knn = bn.argpartition(distances_np, k)[:k]             # <<<<<<<<<<<<<<
  *         classes = class_train_np[knn]
@@ -22249,8 +22248,8 @@ static PyObject *__pyx_pf_6knn_cy_2knn_cython_sans_secu(CYTHON_UNUSED PyObject *
 
 
 
-  __Pyx_XDECREF(__pyx_v_class_train_np);
 
+  __Pyx_XDECREF(__pyx_v_class_train_np);
   __Pyx_XDECREF(__pyx_v_knn);
   __Pyx_XDECREF(__pyx_v_classes);
   __Pyx_XGIVEREF(__pyx_r);
@@ -24797,13 +24796,13 @@ static int __Pyx_InitConstants(__pyx_mstatetype *__pyx_mstate) {
   int __pyx_clineno = 0;
   CYTHON_UNUSED_VAR(__pyx_mstate);
   {
-    const struct { const unsigned int length: 8; } str_length_index[] = {{6},{8},{1},{2},{15},{23},{25},{32},{20},{22},{1},{1},{37},{45},{22},{179},{8},{15},{7},{6},{2},{9},{10},{50},{39},{34},{30},{37},{5},{8},{8},{15},{20},{12},{9},{17},{8},{8},{12},{10},{8},{10},{8},{7},{14},{11},{10},{19},{14},{12},{10},{17},{13},{12},{12},{19},{8},{13},{3},{15},{6},{12},{7},{6},{18},{4},{8},{2},{10},{1},{11},{14},{7},{18},{5},{1},{4},{4},{7},{9},{12},{5},{15},{6},{9},{5},{5},{7},{6},{7},{1},{2},{5},{5},{8},{1},{1},{3},{6},{20},{20},{7},{4},{10},{6},{7},{4},{4},{2},{5},{3},{4},{3},{17},{12},{8},{10},{5},{4},{5},{4},{4},{6},{6},{6},{6},{1},{6},{7},{5}};
+    const struct { const unsigned int length: 8; } str_length_index[] = {{6},{8},{1},{2},{15},{23},{25},{32},{20},{22},{1},{1},{37},{45},{22},{179},{8},{15},{7},{6},{2},{9},{10},{50},{39},{34},{30},{37},{5},{8},{8},{15},{20},{12},{9},{17},{8},{8},{12},{10},{8},{10},{8},{7},{14},{11},{10},{19},{14},{12},{10},{17},{13},{12},{12},{19},{8},{13},{3},{15},{6},{12},{7},{6},{18},{4},{8},{2},{10},{1},{11},{14},{7},{18},{5},{1},{4},{7},{9},{12},{5},{15},{6},{9},{5},{5},{7},{6},{7},{1},{2},{5},{5},{8},{1},{1},{3},{6},{20},{20},{7},{4},{10},{6},{7},{4},{4},{2},{5},{3},{4},{3},{17},{12},{8},{10},{5},{4},{5},{4},{4},{6},{6},{6},{6},{1},{6},{7},{5}};
     const struct { const unsigned int length: 8; } bytes_length_index[] = {{1},{237},{231}};
     #ifndef CYTHON_COMPRESS_STRINGS
       #define CYTHON_COMPRESS_STRINGS 90
     #endif
     #if (CYTHON_COMPRESS_STRINGS) == 1 /* compression: zlib (1080 bytes) */
-static const char cstring[] = "x\332\255T\315n\333F\020\266\013)\025Z\047p\232\304u{\351\272E\253KLT\201Q\004A\220\302q\235\302\207\246\266\203\370\272X.\207\322\306\344.\265?2\231S\217>\362\310#\217:\372\230G\321\321\217\340G\350,)\331jc\264@Q\001\\\216fg\206\363}\363C\230%?\346D\205\357\200\333\027\3013\362\3747H\225.N\004\234\021\025\223\347\\I+\206N9C\230\214H$\2647\374\273Z\310\305\205\261ZD\020-\031\023\245\377\361\376\257\272k\313\027?\3571)\225%\314\0301\224\304*\242\201E\333J&\005I\233$\047\230\344\201\234\260DD$U\021<&\220g\350\213\241\372\274\357\277\333\217\225\266\232\311\376c2\304P\013c3b\031\340\247\010\313\205!\257\225\005bG\310\304^aGJ\022\324E\220\210\0204\263\200_\363\371aT\355\215$9\334?\334\336y\272\323d\253\301\363f\210q!O0Q0\236\264\320\211\304bt[d`\002r\020\223B9\"\001\363B\024\031\332-;\330\021Hb\300z\201\364\033\314\314\n%)\272\0139\354\317i\022\023\360\336\257Xb `QD\321\016\270J\022\177\247\244\tX\310#aX\230\000H\177\016\2710\255\024\235JIy\021dE.\025B\213\231K,\241TC\3448PJ\"\327\304\226Jn#\324\211`\t\336r!\205\245T\2724+\002\312\225\206 E?\301\264f\005\211\231HZ<\"\315\220\344e3\2272;\372\310\3025\271\370\377,I\024GjI\033*b\226\005\267\334\266U\3624\267\rb\202\3357{\007\007\373I\"2#\314\033\030;\220\034|\253\0067]K\351a\221\343\363\013\226\214\276\206\334\036CL\351\234V\004\213\300<\3617\302\020\254\260\220zE\344}\360\027;\311\375\033\257\314\302\253\005\341\245\224\t\331\274U\344\222\346N\262\264}\373\317S\212<S>\002~j\\\332\376\233G\361\242o\212Vr2\023\374\024#\354\313\205\335\304z\026|\214\261c\311\"\354\242N\327\022o\372tI\001\271\377\203Mt\235\212YJ\375Z\276\361\263`<\026a|\305\224\303n\005\354\237\005\3654tq\214\335\257\207)\313\361\314\230F\216\260\313\230iJ\306\214G\301L!\271P\301u\004\0232\003\241\220\\9iC\031*k\023\220\310\003o\231\306I\304\313\033\221\312l>\004<Aw\212\032\324s\010\031\272\370\030Q$\342\030\233\332\372\207\232q\363\362S\357\005\206\2657\030\"\362\2714\207\207\323n2\354\013\334\007\200\27463\014Z+\035\047lh\342D1\373\323\016\256\005\354\321""\371r\020\"\302\255\003\271\357\002\323\036\357\341\335)\016M;7\355\3310\307&\300\221N\356\226t\206I\323\350p)\371\334\374&\2224\006f\235\006#\033\252e\013\330\027\007\367[*\263f\\0\327\014\241f*\313\260\216\276\367Z:\020\324B\341\003j\030\"\\\320X\306\371\3546\223\341\263D\0264\326\0262c\025>\332q\0343\037\323e8U\200\333\316\201\311\363&\207\274\315\341=he~\377c\365\252\267\322\335,\317\252\270\336\255\217f\235\257\253~\275Q\217\247\253\263\316F\031W\257\352\255zpug\245\373U\365I\365C\275ZoN7\246\343Y\347\373\372\310k\037\226O\312\223jP\035\324\047\323\047St\377\246\032_\335[\351n\224\307e^\215\353\325\313N\357\274{\376\266\334*\007\227\275\265\363\375\362Q\311\312\361l\355A9\230\255\255\227\335\362m\265U\rf\353_b\006\2542\365w\365q=\231\036M\371\305\375\331\372f\325\255\2161\340\235\225\273\033\345Q\t\325N\023\262w\357<,\357VG\225\234\276\234\206\027\253\263\336\027e\200\251\335\237\365\036\226\273\030\361\333\352\327zP\277\254\305t|\361\351\305\331\007\366a|\331\371\374|\200`\327\377\025\354eg\363#\250\227\235\007\267\001\375\354v\240\263\377\nt\266\366\350\377\200\371\047\354\332\016\233";
+static const char cstring[] = "x\332\255T\315n\034E\020\266\2435\254\300\211\034H\026\003\007\332 \262\227x\304F\006!\024\0059\306A>\020lG\361\265\325\323S\263\333\361L\367l\377\254gr\342\350\343\034\3478\307=\372\230G\331\243\037\301\217@\365\314\256\275\020\013$\304J\333]S]U]\337WUM\230%\337\345D\205o\200\333g\301O\344\351o\220*]\234\0108#*&O\271\222V\014\235r\2060\031\221Hho\370w\265\220\213\003c\265\210 Z2&J\377\343\371_u\327\226\317~\336cR*K\2301b(\211UD\003\213\266\225L\n\2226IN0\311\0039a\211\210H\252\"xL \317\320\027C\365y\337\337\333\217\225\266\232\311\376c2\304P\013c3b\031\340U\204\345\302\220\227\312\002\261#db\257\260#%\t\352\"HD\010\232Y\300\333|~\030U{#I\016\367\017\267w~\334i\262\325\340y3\304\270\220\047\230(\030OZ\350Db1\272-20\0019\210I\241\034\221\200y!\212\014\355\226\035\354\010$1`\275@\372\rff\205\222\024\335\205\034\366\3474\211\tx\357\027,1\020\260(\242h\007\\%\211?S\322\004,\344\2210,L\000\244_\207\\\230V\212N\245\244\274\010\262\"\227\n\241\305\314%\226P\252!r\034(%\221kbK%\267\021\352D\260\004O\271\220\302R*]\232\025\001\345JC\220\242\237`Z\263\202\304L$-\036\221fH\362\262\231K\231\035\275g\341\232\\\3747K\022\305\221Z\322\206\212\230e\301-\247m\225<\315m\203\230`\367\325\336\301\301~\222\210\314\010\363\n\306\016$\007\337\252\301M\327RzX\344\370\377\005KF_Bn\217!\246tN+\202E`\236\370\033a\010VXH\275\"\362>\370\213\235\344~\307#\263\360jAx)eB6\273\212\\\322\234I\226\266\273\277\236R\344\231\362\021\360S\343\322\366k\036\305\213\276)Z\311\311L\360S\214\260/\027v\023\353Y\3601\306\216%\213\260\213:]K\274\351\323%\005\344\376\003\233\350:\025\263\224\372\265|\343g\301x,\302\370\212)\207\335\n\330?\013\352i\350\342\030\273_\017S\226\343\2321\215\034a\2271\323\224\214\031\217\202\231Br\241\202\353\010&d\006B!\271r\322\2062T\326& \221\007\3362\215\223\210\2077\"\225\331|\010x\202\356\0245\250\347\0202t\3611\242H\30416\265\245f\334l~\342\275\300\260\356\006\335#\237G\263x(\355+\206=\201o\001 \247\315\374\202\326J\307\t\033\2328Q\314\376\260\203O\002\366\347\374a\020\"\302""\027\007r\337\001\246]\336\302\233S\034\230vf\332\265a\215M\200#\225\334-\351\014\223\246\321\341\203\344s\363\257\220\24410\3534\030\331\320,[\260\2760\370\266\2452kF\005s\315\020f\246\262\014k\350\373\256\245\002A-\024>\240\206!\302\005\215%\234\317m3\025>KdAc]!3V\341_;\216#\346c\272\014\047\n\360\245s`\362\274\311!osx\013Z\231\337\377X\275\352\256\254m\226gU\\\357\326G\263\316\027U\277\356\325\343\351\352\254\323+\343\352E\275U\017\256>XY\373\274\272S=\252W\353\315io:\236u\276\255\217\274\366A\371\244<\251\006\325A}2}2E\367\257\252\361\325\275\225\265^y\\\346\325\270^\275\354t\317\327\316_\227[\345\340\262\273~\276_>,Y9\236\255\367J6[\337(\327\312\327\325V5\230m|\206\031\260\312\324\337\324\307\365dz4\345\027\367g\033_V\337\327w\352-\274\350n\257<*\241\332iBv\357\235\207\345\335\352\250\222\323\347\323\360bu\326\375\244\0140\265\373\263\356\203r\027#~]\375Z\017\352\347\265\230\216/>\2748{\307\336\215/;\037\237\017\020\354\306\277\202\275\354l\276\007\365\262\363\351m@?\272\035\350\354\277\002\235\255?\374?`\376\t>\031\014\223";
     PyObject *data = __Pyx_DecompressString(cstring, 1080, 1);
     #define __Pyx_DecompressString_LZSS_UNUSED
     if (unlikely(!data)) __PYX_ERR(0, 1, __pyx_L1_error)
@@ -24811,24 +24810,24 @@ static const char cstring[] = "x\332\255T\315n\333F\020\266\013)\025Z\047p\232\3
     #if !CYTHON_ASSUME_SAFE_MACROS
     if (likely(bytes)); else { Py_DECREF(data); __PYX_ERR(0, 1, __pyx_L1_error) }
     #endif
-    #elif (CYTHON_COMPRESS_STRINGS) > 0 && (CYTHON_COMPRESS_STRINGS) <= 90 /* compression: lzss (1429 bytes) */
-static const char cstring[] = "\377 at 0x o\377bject>.:\377 <Memory\377View of \377<contigu\377ous and gdir%\001\007\rin\021\005\177strided\"\010o or \004\031><(\t\376A\006>?Canno\377t assign\377 to read\177-only m\240\002\375v\242\000Invali\377d mode, \347exp\305\000|\000\047c\047\376t\001\047fortra\237n\047, gH\000%\005s\357hape\222\000 ax\377is Note \373th\207 Cytho\373n \021\000delib\237eratek\000\320\001c\367ter!\001n PE\337P-484\212\"re\376\264!s subcl\366\246\000es\261!buil\373ti\260\000ypes.\377 If you \223ne\224 \303\000p\316\000%\tt\177hen set\200\000\367e \047\357\002atio\377n_typing\355\047\355$iv\242\000o F\377alse.add}_\231 ecoll\266@\376+\000s.abcdi\177sableen\002\001\357gcis\004\003dkn\377n_cy.pyx\377no defau\377lt __red\377uce__ du\336W\002non-\274@vi\373al\033\000cinit\377__numpy.\177_core.m5\000\377iarray fwail\312\003imp\342 \276\033\tumath\021\016u|\221\002\304Aalloc\330 } E\003data.\013\020\370\240C\362a\317cs.ASC\377IIEllips\377isSequen\353ce\247\204\001.\254\204\007__P\373yx\001\000Dict_\377NextRef_\331_\320$\352\000__\245B__\376\001\005getitem\362\r\001d0\001\027\000func\014\035\001\030\000st\201`)\001\341\0033\001\357main\003\002odu\335lM\002nam\002\003ew\374T\001\345 _check\003suT\000\n\001?\004\025\001\323@\360 ~\037\001unpick?\000\233En \005vt\274A\230\001qGualO\005\240E\251Fc\243\204\002L\277\001\274Dex\314\001\302`_\203\005p\316`\262\006\003\006.\007tes\331@\367_is\325Aouti\363ne\275`\221E_buf\377ferargma\335x\003\000par\241 io\267nas\371Bas\302\001a\177syncio.\230`\376<\003sbasebi\377ncountbn\177bottlen\205 \315c\355#tr\267 \000\010_n\255p\257\205\004cl~\000_\324 t\377raceback\376?\002ddiffdi;st\000\001_sq\002\002\362\206\001*\020\001a\371@s@\000d\316!\000\002\370\313\001\304\210\003\225`odeen\373um\277\206\002error\377flagsflo\377at64form\373at\226\207\004iidin\327dex\202as\000\002iz?ejkknn\262\205\003\270\205\003\376\226\207\001_avec_s\367ecu\t\010sans\316\017\002mem\216\210\001\206\210\001n_\377features\233n_\347!n_\367\002\244an\337dimnp\321\205\002ob\373jp""\350\000poppr\301e\367b\277\207\003\225 \t\005\337\210\001re}g\200 erset\265\206\004\332\273\210\002s\243\000st\227@st\337epsto\001\000ru\363ct\323`\274 upda\377tevalues\353xx\177\002x~\003zer\377osO\200\001\360\010\000\377\005\030\220w\230f\240A\377\240Q\330\004\032\230\047\240\377\026\240q\250\001\330\004\026\377\220f\230F\240!\2401\377\360\006\000\005\031\230\002\230\377&\240\001\240\030\250\026\250\277q\330\004%\240Q\022\001\024\377\2202\220V\2301\230I\337\240V\2502\250<\000\037\230\377q\360\016\000\005\026\220R\377\220x\230q\240\001\340\004\377\010\210\005\210U\220!\220\3771\340\010\014\210E\220\025\377\220a\220q\330\014\023\220\3771\330\014\020\220\005\220U\177\230!\2301\330\020\027\177\000\377a\230s\240#\240R\240\377v\250Q\250c\260\021\330\277\020\030\230\005\230RN\000\006\377\000\r\026\220Q\220e\230\3754N\002\010\016\210b\220\r\377\230Q\230n\250B\250b\177\260\001\330\010\022\220.\230\000\277\021\330\010\024\220AO\000\"\377\230G\2401\240B\240i\377\250q\260\007\260w\270a\177\270q\340\004\013\2101\352\000\335\020\314\036\340\004\030\332\016\340\004\325\023\325\021\n\323\023\330\261\2005\330\014\001\025\243\200A";
-    PyObject *data = __Pyx_DecompressString_LZSS(cstring, 1429, 1996);
+    #elif (CYTHON_COMPRESS_STRINGS) > 0 && (CYTHON_COMPRESS_STRINGS) <= 90 /* compression: lzss (1425 bytes) */
+static const char cstring[] = "\377 at 0x o\377bject>.:\377 <Memory\377View of \377<contigu\377ous and gdir%\001\007\rin\021\005\177strided\"\010o or \004\031><(\t\376A\006>?Canno\377t assign\377 to read\177-only m\240\002\375v\242\000Invali\377d mode, \347exp\305\000|\000\047c\047\376t\001\047fortra\237n\047, gH\000%\005s\357hape\222\000 ax\377is Note \373th\207 Cytho\373n \021\000delib\237eratek\000\320\001c\367ter!\001n PE\337P-484\212\"re\376\264!s subcl\366\246\000es\261!buil\373ti\260\000ypes.\377 If you \223ne\224 \303\000p\316\000%\tt\177hen set\200\000\367e \047\357\002atio\377n_typing\355\047\355$iv\242\000o F\377alse.add}_\231 ecoll\266@\376+\000s.abcdi\177sableen\002\001\357gcis\004\003dkn\377n_cy.pyx\377no defau\377lt __red\377uce__ du\336W\002non-\274@vi\373al\033\000cinit\377__numpy.\177_core.m5\000\377iarray fwail\312\003imp\342 \276\033\tumath\021\016u|\221\002\304Aalloc\330 } E\003data.\013\020\370\240C\362a\317cs.ASC\377IIEllips\377isSequen\353ce\247\204\001.\254\204\007__P\373yx\001\000Dict_\377NextRef_\331_\320$\352\000__\245B__\376\001\005getitem\362\r\001d0\001\027\000func\014\035\001\030\000st\201`)\001\341\0033\001\357main\003\002odu\335lM\002nam\002\003ew\374T\001\345 _check\003suT\000\n\001?\004\025\001\323@\360 ~\037\001unpick?\000\233En \005vt\274A\230\001qGualO\005\240E\251Fc\243\204\002L\277\001\274Dex\314\001\302`_\203\005p\316`\262\006\003\006.\007tes\331@\367_is\325Aouti\363ne\275`\221E_buf\377ferargma\335x\003\000par\241 io\267nas\371Bas\302\001a\177syncio.\230`\376<\003sbasebi\377ncountbn\177bottlen\205 \315c\355#tr\267 \000\010_n\255p\257\205\004cl~\000_\324 t\377raceback\376?\002ddiffdiF\250\000sq\002\002\356\206\001\014\001a\365@\005s<\000d\312!\000\002\307\001\300\210\003\221`\177odeenum\273\206\002\377errorfla\377gsfloat6\1774format\222\207\004\377iidindex\372\376As\000\002izejk\307knn\256\205\003\264\205\003\222\207\001_a\377vec_secu\336\t\010sans\017\002me\371m\212\210\001\202\210\001n_fea\177turesn_\343!\363n_\363\002\240andim{np\315\205\002objp\344""\000?poppre\363b\273\207\003\270\221 \t\005\333\210\001reg\374\000eOrset\261\206\004\267\210\002s\243\000\373st\223@steps{to\001\000ruct\317`\376\270 updatev\177aluesxx\177\002\375x~\003zerosO\377\200\001\360\010\000\005\030\220\377w\230f\240A\240Q\330\377\004\032\230\047\240\026\240q\377\250\001\330\004\026\220f\230\377F\240!\2401\360\006\000\377\005\031\230\002\230&\240\001\377\240\030\250\026\250q\330\004\367%\240Q\022\001\024\2202\220\377V\2301\230I\240V\250\3732\250<\000\037\230q\360\016\377\000\005\026\220R\220x\230\377q\240\001\340\004\010\210\005\377\210U\220!\2201\340\010\377\014\210E\220\025\220a\220\377q\330\014\026\220a\330\014\377\020\220\005\220U\230!\230\3571\330\020\027\177\000a\230s\377\240#\240R\240v\250Q\377\250c\260\021\330\020\033\230\3375\240\002\240!|\000\r\026\277\220Q\220e\2304N\002\010\377\016\210b\220\r\230Q\230\377n\250B\250b\260\001\330\357\010\022\220.\230\000\021\330\010\367\024\220AO\000\"\230G\240\3771\240B\240i\250q\260\377\007\260w\270a\270q\340\257\004\013\2101\352\000\020\314\036\340\273\004\030\332\016\340\004\023\325\021\n:\323\023\330\261\2005\330\014\025\243\200A";
+    PyObject *data = __Pyx_DecompressString_LZSS(cstring, 1425, 1992);
     #define __Pyx_DecompressString_UNUSED
     if (unlikely(!data)) __PYX_ERR(0, 1, __pyx_L1_error)
     const char* const bytes = __Pyx_PyBytes_AsString(data);
     #if !CYTHON_ASSUME_SAFE_MACROS
     if (likely(bytes)); else { Py_DECREF(data); __PYX_ERR(0, 1, __pyx_L1_error) }
     #endif
-    #else /* compression: none (1996 bytes) */
-static const char bytes[] = " at 0x object>.: <MemoryView of <contiguous and direct><contiguous and indirect><strided and direct or indirect><strided and direct><strided and indirect>>?Cannot assign to read-only memoryviewInvalid mode, expected \047c\047 or \047fortran\047, got Invalid shape in axis Note that Cython is deliberately stricter than PEP-484 and rejects subclasses of builtin types. If you need to pass subclasses then set the \047annotation_typing\047 directive to False.add_notecollections.abcdisableenablegcisenabledknn_cy.pyxno default __reduce__ due to non-trivial __cinit__numpy._core.multiarray failed to importnumpy._core.umath failed to importunable to allocate array data.unable to allocate shape and strides.ASCIIEllipsisSequenceView.MemoryView__Pyx_PyDict_NextRef__annotate____class____class_getitem____dict____func____getstate____import____main____module____name____new____pyx_checksum__pyx_state__pyx_type__pyx_unpickle_Enum__pyx_vtable____qualname____reduce____reduce_cython____reduce_ex____set_name____setstate____setstate_cython____test___is_coroutineabcallocate_bufferargmaxargpartitionasarrayastypeasyncio.coroutinesbasebincountbnbottleneckcclass_trainclass_train_npclassescline_in_tracebackcountddiffdistdist_sqdist_viewdistances_npdtypedtype_is_objectencodeenumerateerrorflagsfloat64formatfortraniidindexitemsitemsizejkknnknn_cyknn_cython_avec_secuknn_cython_sans_secumemviewmoden_featuresn_testn_trainnamendimnpnumpyobjpackpoppredict_classe_nppredict_viewregistersetdefaultshapesizestartstepstopstructunpackupdatevaluesxx_testx_trainzerosO\200\001\360\010\000\005\030\220w\230f\240A\240Q\330\004\032\230\047\240\026\240q\250\001\330\004\026\220f\230F\240!\2401\360\006\000\005\031\230\002\230&\240\001\240\030\250\026\250q\330\004%\240Q\360\006\000\005\024\2202\220V\2301\230I\240V\2502\250Q\330\004\037\230q\360\016\000\005\026\220R\220x\230q\240\001\340\004\010\210\005\210U\220!\2201\340\010\014\210E\220\025\220a\220q\330\014\023\2201\330\014\020\220\005\220U\230!\2301\330\020\027\220w""\230a\230s\240#\240R\240v\250Q\250c\260\021\330\020\030\230\005\230R\230q\360\006\000\r\026\220Q\220e\2304\230q\240\001\340\010\016\210b\220\r\230Q\230n\250B\250b\260\001\330\010\022\220.\240\001\240\021\330\010\024\220A\220U\230\"\230G\2401\240B\240i\250q\260\007\260w\270a\270q\340\004\013\2101\200\001\360\020\000\005\030\220w\230f\240A\240Q\330\004\032\230\047\240\026\240q\250\001\330\004\026\220f\230F\240!\2401\340\004\030\230\002\230&\240\001\240\030\250\026\250q\330\004%\240Q\340\004\023\2202\220V\2301\230I\240V\2502\250Q\330\004\037\230q\360\n\000\005\026\220R\220x\230q\240\001\340\004\010\210\005\210U\220!\2201\330\010\014\210E\220\025\220a\220q\330\014\023\2201\330\014\020\220\005\220U\230!\2301\330\020\027\220w\230a\230s\240#\240R\240v\250Q\250c\260\021\330\020\030\230\005\230R\230q\330\014\025\220Q\220e\2304\230q\240\001\340\010\016\210b\220\r\230Q\230n\250B\250b\260\001\330\010\022\220.\240\001\240\021\330\010\024\220A\220U\230\"\230G\2401\240B\240i\250q\260\007\260w\270a\270q\340\004\013\2101";
+    #else /* compression: none (1992 bytes) */
+static const char bytes[] = " at 0x object>.: <MemoryView of <contiguous and direct><contiguous and indirect><strided and direct or indirect><strided and direct><strided and indirect>>?Cannot assign to read-only memoryviewInvalid mode, expected \047c\047 or \047fortran\047, got Invalid shape in axis Note that Cython is deliberately stricter than PEP-484 and rejects subclasses of builtin types. If you need to pass subclasses then set the \047annotation_typing\047 directive to False.add_notecollections.abcdisableenablegcisenabledknn_cy.pyxno default __reduce__ due to non-trivial __cinit__numpy._core.multiarray failed to importnumpy._core.umath failed to importunable to allocate array data.unable to allocate shape and strides.ASCIIEllipsisSequenceView.MemoryView__Pyx_PyDict_NextRef__annotate____class____class_getitem____dict____func____getstate____import____main____module____name____new____pyx_checksum__pyx_state__pyx_type__pyx_unpickle_Enum__pyx_vtable____qualname____reduce____reduce_cython____reduce_ex____set_name____setstate____setstate_cython____test___is_coroutineabcallocate_bufferargmaxargpartitionasarrayastypeasyncio.coroutinesbasebincountbnbottleneckcclass_trainclass_train_npclassescline_in_tracebackcountddiffdist_sqdist_viewdistances_npdtypedtype_is_objectencodeenumerateerrorflagsfloat64formatfortraniidindexitemsitemsizejkknnknn_cyknn_cython_avec_secuknn_cython_sans_secumemviewmoden_featuresn_testn_trainnamendimnpnumpyobjpackpoppredict_classe_nppredict_viewregistersetdefaultshapesizestartstepstopstructunpackupdatevaluesxx_testx_trainzerosO\200\001\360\010\000\005\030\220w\230f\240A\240Q\330\004\032\230\047\240\026\240q\250\001\330\004\026\220f\230F\240!\2401\360\006\000\005\031\230\002\230&\240\001\240\030\250\026\250q\330\004%\240Q\360\006\000\005\024\2202\220V\2301\230I\240V\2502\250Q\330\004\037\230q\360\016\000\005\026\220R\220x\230q\240\001\340\004\010\210\005\210U\220!\2201\340\010\014\210E\220\025\220a\220q\330\014\026\220a\330\014\020\220\005\220U\230!\2301\330\020\027\220w\230a""\230s\240#\240R\240v\250Q\250c\260\021\330\020\033\2305\240\002\240!\360\006\000\r\026\220Q\220e\2304\230q\240\001\340\010\016\210b\220\r\230Q\230n\250B\250b\260\001\330\010\022\220.\240\001\240\021\330\010\024\220A\220U\230\"\230G\2401\240B\240i\250q\260\007\260w\270a\270q\340\004\013\2101\200\001\360\020\000\005\030\220w\230f\240A\240Q\330\004\032\230\047\240\026\240q\250\001\330\004\026\220f\230F\240!\2401\340\004\030\230\002\230&\240\001\240\030\250\026\250q\330\004%\240Q\340\004\023\2202\220V\2301\230I\240V\2502\250Q\330\004\037\230q\360\n\000\005\026\220R\220x\230q\240\001\340\004\010\210\005\210U\220!\2201\330\010\014\210E\220\025\220a\220q\330\014\026\220a\330\014\020\220\005\220U\230!\2301\330\020\027\220w\230a\230s\240#\240R\240v\250Q\250c\260\021\330\020\033\2305\240\002\240!\330\014\025\220Q\220e\2304\230q\240\001\340\010\016\210b\220\r\230Q\230n\250B\250b\260\001\330\010\022\220.\240\001\240\021\330\010\024\220A\220U\230\"\230G\2401\240B\240i\250q\260\007\260w\270a\270q\340\004\013\2101";
     PyObject *data = NULL;
     #define __Pyx_DecompressString_UNUSED
     #define __Pyx_DecompressString_LZSS_UNUSED
     #endif
     PyObject **stringtab = __pyx_mstate->__pyx_string_tab;
     Py_ssize_t pos = 0;
-    for (int i = 0; i < 130; i++) {
+    for (int i = 0; i < 129; i++) {
       Py_ssize_t bytes_length = str_length_index[i].length;
       PyObject *string = PyUnicode_DecodeUTF8(bytes + pos, bytes_length, NULL);
       if (likely(string) && i >= 28) PyUnicode_InternInPlace(&string);
@@ -24839,8 +24838,8 @@ static const char bytes[] = " at 0x object>.: <MemoryView of <contiguous and dir
       stringtab[i] = string;
       pos += bytes_length;
     }
-    for (int i = 130; i < 133; i++) {
-      Py_ssize_t bytes_length = bytes_length_index[i-130].length;
+    for (int i = 129; i < 132; i++) {
+      Py_ssize_t bytes_length = bytes_length_index[i-129].length;
       PyObject *string = PyBytes_FromStringAndSize(bytes + pos, bytes_length);
       stringtab[i] = string;
       pos += bytes_length;
@@ -24850,14 +24849,14 @@ static const char bytes[] = " at 0x object>.: <MemoryView of <contiguous and dir
       }
     }
     Py_XDECREF(data);
-    for (Py_ssize_t i = 0; i < 133; i++) {
+    for (Py_ssize_t i = 0; i < 132; i++) {
       if (unlikely(PyObject_Hash(stringtab[i]) == -1)) {
         __PYX_ERR(0, 1, __pyx_L1_error)
       }
     }
     #if CYTHON_IMMORTAL_CONSTANTS
     {
-      PyObject **table = stringtab + 130;
+      PyObject **table = stringtab + 129;
       for (Py_ssize_t i=0; i<3; ++i) {
         #if PY_VERSION_HEX >= 0x030F0000
         PyUnstable_SetImmortal(table[i]);
@@ -24945,13 +24944,13 @@ static int __Pyx_CreateCodeObjects(__pyx_mstatetype *__pyx_mstate) {
   PyObject* tuple_dedup_map = PyDict_New();
   if (unlikely(!tuple_dedup_map)) return -1;
   {
-    const __Pyx_PyCode_New_function_description descr = {4, 0, 0, 20, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 12};
-    PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_x_train, __pyx_mstate->__pyx_n_u_class_train, __pyx_mstate->__pyx_n_u_x_test, __pyx_mstate->__pyx_n_u_k, __pyx_mstate->__pyx_n_u_n_train, __pyx_mstate->__pyx_n_u_n_features, __pyx_mstate->__pyx_n_u_n_test, __pyx_mstate->__pyx_n_u_predict_classe_np, __pyx_mstate->__pyx_n_u_predict_view, __pyx_mstate->__pyx_n_u_distances_np, __pyx_mstate->__pyx_n_u_dist_view, __pyx_mstate->__pyx_n_u_i, __pyx_mstate->__pyx_n_u_j, __pyx_mstate->__pyx_n_u_d, __pyx_mstate->__pyx_n_u_diff, __pyx_mstate->__pyx_n_u_dist_sq, __pyx_mstate->__pyx_n_u_class_train_np, __pyx_mstate->__pyx_n_u_dist, __pyx_mstate->__pyx_n_u_knn, __pyx_mstate->__pyx_n_u_classes};
+    const __Pyx_PyCode_New_function_description descr = {4, 0, 0, 19, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 12};
+    PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_x_train, __pyx_mstate->__pyx_n_u_class_train, __pyx_mstate->__pyx_n_u_x_test, __pyx_mstate->__pyx_n_u_k, __pyx_mstate->__pyx_n_u_n_train, __pyx_mstate->__pyx_n_u_n_features, __pyx_mstate->__pyx_n_u_n_test, __pyx_mstate->__pyx_n_u_predict_classe_np, __pyx_mstate->__pyx_n_u_predict_view, __pyx_mstate->__pyx_n_u_distances_np, __pyx_mstate->__pyx_n_u_dist_view, __pyx_mstate->__pyx_n_u_i, __pyx_mstate->__pyx_n_u_j, __pyx_mstate->__pyx_n_u_d, __pyx_mstate->__pyx_n_u_diff, __pyx_mstate->__pyx_n_u_dist_sq, __pyx_mstate->__pyx_n_u_class_train_np, __pyx_mstate->__pyx_n_u_knn, __pyx_mstate->__pyx_n_u_classes};
     __pyx_mstate_global->__pyx_codeobj_tab[0] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_knn_cy_pyx, __pyx_mstate->__pyx_n_u_knn_cython_avec_secu, __pyx_mstate->__pyx_kp_b_iso88591_wfAQ_q_fF_1_q_Q_2V1IV2Q_q_Rxq_U, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[0])) goto bad;
   }
   {
-    const __Pyx_PyCode_New_function_description descr = {4, 0, 0, 20, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 54};
-    PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_x_train, __pyx_mstate->__pyx_n_u_class_train, __pyx_mstate->__pyx_n_u_x_test, __pyx_mstate->__pyx_n_u_k, __pyx_mstate->__pyx_n_u_n_train, __pyx_mstate->__pyx_n_u_n_features, __pyx_mstate->__pyx_n_u_n_test, __pyx_mstate->__pyx_n_u_predict_classe_np, __pyx_mstate->__pyx_n_u_predict_view, __pyx_mstate->__pyx_n_u_distances_np, __pyx_mstate->__pyx_n_u_dist_view, __pyx_mstate->__pyx_n_u_i, __pyx_mstate->__pyx_n_u_j, __pyx_mstate->__pyx_n_u_d, __pyx_mstate->__pyx_n_u_diff, __pyx_mstate->__pyx_n_u_dist_sq, __pyx_mstate->__pyx_n_u_class_train_np, __pyx_mstate->__pyx_n_u_dist, __pyx_mstate->__pyx_n_u_knn, __pyx_mstate->__pyx_n_u_classes};
+    const __Pyx_PyCode_New_function_description descr = {4, 0, 0, 19, (unsigned int)(CO_OPTIMIZED|CO_NEWLOCALS), 54};
+    PyObject* const varnames[] = {__pyx_mstate->__pyx_n_u_x_train, __pyx_mstate->__pyx_n_u_class_train, __pyx_mstate->__pyx_n_u_x_test, __pyx_mstate->__pyx_n_u_k, __pyx_mstate->__pyx_n_u_n_train, __pyx_mstate->__pyx_n_u_n_features, __pyx_mstate->__pyx_n_u_n_test, __pyx_mstate->__pyx_n_u_predict_classe_np, __pyx_mstate->__pyx_n_u_predict_view, __pyx_mstate->__pyx_n_u_distances_np, __pyx_mstate->__pyx_n_u_dist_view, __pyx_mstate->__pyx_n_u_i, __pyx_mstate->__pyx_n_u_j, __pyx_mstate->__pyx_n_u_d, __pyx_mstate->__pyx_n_u_diff, __pyx_mstate->__pyx_n_u_dist_sq, __pyx_mstate->__pyx_n_u_class_train_np, __pyx_mstate->__pyx_n_u_knn, __pyx_mstate->__pyx_n_u_classes};
     __pyx_mstate_global->__pyx_codeobj_tab[1] = __Pyx_PyCode_New(descr, varnames, __pyx_mstate->__pyx_kp_u_knn_cy_pyx, __pyx_mstate->__pyx_n_u_knn_cython_sans_secu, __pyx_mstate->__pyx_kp_b_iso88591_wfAQ_q_fF_1_q_Q_2V1IV2Q_q_Rxq_U_2, tuple_dedup_map); if (unlikely(!__pyx_mstate_global->__pyx_codeobj_tab[1])) goto bad;
   }
   Py_DECREF(tuple_dedup_map);

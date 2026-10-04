@@ -35,13 +35,13 @@ def knn_cython_avec_secu(double[:, ::1] x_train, double[:] class_train, double[:
     for i in range(n_test):
         # On calcule des distances euclidiennes avec des boucles C pures
         for j in range(n_train):
-            dist = 0
+            dist_sq = 0
             for d in range(n_features):
                 diff = x_train[j, d] - x_test[i, d]
-                dist += diff * diff
+                dist_sq += diff * diff
             
             # On stocke dans la memory view pour éviter le surcoût Python
-            dist_view[j] = sqrt(dist)
+            dist_view[j] = sqrt(dist_sq)
         
         knn = bn.argpartition(distances_np, k)[:k]
         classes = class_train_np[knn]
@@ -76,11 +76,11 @@ def knn_cython_sans_secu(double[:, ::1] x_train, double[:] class_train, double[:
     
     for i in range(n_test):
         for j in range(n_train):
-            dist = 0
+            dist_sq = 0
             for d in range(n_features):
                 diff = x_train[j, d] - x_test[i, d]
-                dist += diff * diff
-            dist_view[j] = sqrt(dist)
+                dist_sq += diff * diff
+            dist_view[j] = sqrt(dist_sq)
         
         knn = bn.argpartition(distances_np, k)[:k]
         classes = class_train_np[knn]
