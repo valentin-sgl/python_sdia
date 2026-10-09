@@ -1,9 +1,11 @@
 import numpy as np
 
 def markov(rho, A, nmax, rng) :
+    # On convertit rho et A en tableaux numpy pour s'assurer qu'ils sont dans le bon format
     rho = np.asarray(rho)
     A = np.asarray(A)
 
+    # On vérifie que nos paramètres sont bien valides avec plusieurs assert.
     assert rho.ndim == 1, "rho doit être un vecteur à 1 dimension"
     N = rho.shape[0]
 
@@ -16,11 +18,13 @@ def markov(rho, A, nmax, rng) :
     assert np.all(A >= 0), "A doit contenir des valeurs non négatives"
     assert np.allclose(np.sum(A, axis=1), 1), "les lignes de A doivent sommer à 1"
 
+    
     etat = np.arange(N)
-    X = np.empty(nmax+1, dtype=int)
+    X = np.empty(nmax+1, dtype=int) # On initialise le tableau X pour stocker les états de la chaîne de Markov
 
     X[0] = rng.choice(etat, p=rho)
 
+    # On calcule l'état de X pour chaque itération grâce à la matrice A, et on stocke l'état dans le tableau X.
     for i in range(nmax) :
         etat_actuel = X[i]
         transitions = A[etat_actuel]
@@ -28,6 +32,7 @@ def markov(rho, A, nmax, rng) :
 
     return X
 
+
 def chaine_simple(rho, A, nmax, seed) :
-    rng = np.random.default_rng(seed)
-    return markov(rho, A, nmax, rng)
+    rng = np.random.default_rng(seed) # On crée un générateur de nombres aléatoires avec la graine spécifiée pour assurer la reproductibilité.
+    return markov(rho, A, nmax, rng) # on appelle la fonction markov avec le générateur de nombres aléatoires pour obtenir la chaîne de Markov.

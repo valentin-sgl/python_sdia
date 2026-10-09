@@ -1,4 +1,5 @@
 from fonctions_markov import markov, chaine_simple
+from dask.distributed import Client
 
 def dask_simulations(rho, A, nmax, nb_chaines) :
     """
